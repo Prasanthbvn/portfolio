@@ -3,18 +3,17 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
 export function About() {
-  const handleResumeDownload = () => {
-    // Create a link to download the PDF resume
-    const link = document.createElement('a')
-    link.href = 'docs/Prasanth-UIUX-Product-Designer.pdf' // Path to your PDF file in the public folder
-    link.download = 'Prasanth-UIUX-Product-Designer.pdf' // Name of the downloaded file
-    link.target = '_blank'
-    
-    // Append to body, click, and remove
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
+const handleResumeDownload = () => {
+  const link = document.createElement("a");
+  link.href = `${import.meta.env.BASE_URL}docs/Prasanth-UIUX-Product-Designer.pdf`; 
+  link.download = "Prasanth-UIUX-Product-Designer.pdf";
+  link.target = "_blank";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 
   const skills = [
     { name: "Figma" },
