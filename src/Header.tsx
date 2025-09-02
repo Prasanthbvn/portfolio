@@ -33,7 +33,15 @@ export function Header() {
           ].map((link) => (
             <a 
               key={link.href}
-              href={link.href} 
+              href={link.href}
+              onClick={(event) => {
+                event.preventDefault()
+                const targetId = link.href.replace('#', '')
+                const section = document.getElementById(targetId)
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth' })
+                }
+              }} 
               className="text-muted-foreground hover:text-black dark:hover:!text-white transition-all duration-300 relative group"
             >
               {link.label}

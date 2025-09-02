@@ -139,14 +139,14 @@ export function SocialLinks() {
                       Send Message
                     </a>
                   </Button>
-                  <Button 
+                  {/* <Button 
                     variant="outline" 
                     size="lg" 
                     className="px-10 py-7 text-lg rounded-full glass border-2 hover:border-primary transition-all duration-300 transform hover:scale-105"
                   >
                     <Coffee className="mr-2 h-5 w-5" />
                     Schedule a Call
-                  </Button>
+                  </Button> */}
                 </div>
 
                 {/* Quick Stats */}

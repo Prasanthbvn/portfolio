@@ -57,7 +57,7 @@ const handleResumeDownload = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
             <span className="text-sm font-medium text-gradient">About Me</span>
           </div>
-          <h2 className="text-5xl font-bold mb-6 text-gradient-hero">Crafting Digital Experiences</h2>
+          <h2 className="text-5xl font-bold mb-6 text-gradient-hero leading-[1.15] pb-1">Crafting Digital Experiences</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             I'm a passionate UI/UX designer with 5+ years of experience creating digital experiences 
             that users love. I believe great design is invisible – it just works seamlessly and beautifully.
