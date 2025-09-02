@@ -4,8 +4,9 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function About() {
 const handleResumeDownload = () => {
+  const resumeUrl = `${import.meta.env.BASE_URL}docs/Prasanth-UIUX-Product-Designer.pdf`;
   const link = document.createElement("a");
-  link.href = `${import.meta.env.BASE_URL}docs/Prasanth-UIUX-Product-Designer.pdf`; 
+  link.href = resumeUrl;
   link.download = "Prasanth-UIUX-Product-Designer.pdf";
   link.target = "_blank";
 
@@ -13,6 +14,7 @@ const handleResumeDownload = () => {
   link.click();
   document.body.removeChild(link);
 };
+
 
 
   const skills = [
