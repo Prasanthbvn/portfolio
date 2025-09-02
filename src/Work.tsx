@@ -1,67 +1,73 @@
 import { ExternalLink, Eye, ArrowRight, Star, TrendingUp, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import loginSignup from "@/assets/images/login-signup.png"
+import fileManager from "@/assets/images/file-manager.png"
+import constructionSite from "@/assets/images/construction-site.png"
+import otpVerification from "@/assets/images/otp-verification.png"
+import foodieSite from "@/assets/images/foodie-site.png"
+import logoDesign from "@/assets/images/logo-design.png"
 
 const projects = [
   {
     title: "Login & Signup Flow",
     description: "A clean, modern design system that ensures a seamless flow from landing to signup, keeping the user journey smooth and efficient.",
-    image: "image/login-signup.png",
+    image: loginSignup,
     imageType: "file",
     tags: ["Mobile Design", "User Research", "Prototyping"],
     type: "Case Study",
-    stats: { engagement: "+40%", conversion: "+25%", users: "50K+" },
+    // stats: { engagement: "+40%", conversion: "+25%", users: "50K+" },
     color: "from-blue-500 to-purple-600",
     caseStudyUrl: "https://www.behance.net/gallery/232936851/UIUX-Case-Study-Login-Signup-Flow"
   },
   {
     title: "Files Manager App",
     description: "A modern, intuitive file management solution that transforms how users interact with their digital content. This design showcases a clean, minimalist interface that prioritizes user experience while maintaining powerful functionality.",
-    image: "image/file-manager.png",
+    image: fileManager,
     imageType: "file",
     tags: ["Mobile App", "File Manager", "Accessibility"],
     type: "UI Design",
-    stats: { efficiency: "+60%", adoption: "+80%", clients: "200+" },
+    // stats: { efficiency: "+60%", adoption: "+80%", clients: "200+" },
     color: "from-green-500 to-blue-600",
     caseStudyUrl: "https://dribbble.com/shots/26311199-Files-Manager-App"
   },
   {
     title: "Modern Construction Site",
     description: "A clean and modern UI concept designed for a construction company website, focusing on bold visuals, structured layouts, and easy navigation. The design highlights services, projects, and contact details in a professional yet approachable way, ensuring a strong digital presence for the brand.",
-    image: "image/construction-site.png",
+    image: constructionSite,
     imageType: "file",
     tags: ["Web Design", "Design System"],
     type: "UX Research",
-    stats: { satisfaction: "95%", security: "100%", downloads: "1M+" },
+    // stats: { satisfaction: "95%", security: "100%", downloads: "1M+" },
     color: "from-emerald-500 to-teal-600",
     caseStudyUrl: "https://dribbble.com/shots/26294716-Modern-Construction-Site-UI-Design"
   },
   {
     title: "OTP Verification",
     description: "A simple and secure OTP verification UI, designed with a clean layout and intuitive flow to enhance user trust and ensure smooth authentication.",
-    image: "image/otp-verification.png",
+    image: otpVerification,
     imageType: "file",
     tags: ["Security", "UX Design"],
     type: "Security",
-    stats: { recognition: "+70%", consistency: "100%", touchpoints: "50+" },
+    // stats: { recognition: "+70%", consistency: "100%", touchpoints: "50+" },
     color: "from-pink-500 to-rose-600",
     caseStudyUrl: "https://dribbble.com/shots/25059323-OTP-Verification"
   },
   {
     title: "Foodie Site",
     description: "A visually engaging food website concept featuring vibrant imagery, easy navigation, and a modern layout to showcase dishes and enhance the dining experience online.",
-    image: "image/foodie-site.png",
+    image: foodieSite,
     imageType: "file",
     tags: ["Web Design", "Accessibility"],
     type: "Web Design",
-    stats: { efficiency: "+50%", satisfaction: "92%", patients: "10K+" },
+    // stats: { efficiency: "+50%", satisfaction: "92%", patients: "10K+" },
     color: "from-indigo-500 to-purple-600",
     caseStudyUrl: "https://dribbble.com/shots/24939982-Foodie-Site"
   },
   {
     title: "Logo Design",
     description: "A minimal and versatile logo design created for an academy, reflecting professionalism, knowledge, and growth through clean typography and symbolic elements.",
-    image: "image/logo-design.png",
+    image: logoDesign,
     imageType: "file",
     tags: ["Branding", "Innovation"],
     type: "Concept Design",
@@ -115,11 +121,11 @@ export function Work() {
                   
                   {/* Floating Stats */}
                   <div className="absolute top-4 right-4 flex flex-col gap-2">
-                    {Object.entries(project.stats).slice(0, 2).map(([key, value]) => (
+                    {/* {Object.entries(project.stats).slice(0, 2).map(([key, value]) => (
                       <div key={key} className="bg-white/20 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-medium text-white">
                         {value}
                       </div>
-                    ))}
+                    ))} */}
                   </div>
                 </div>
                 
