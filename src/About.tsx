@@ -59,7 +59,7 @@ const handleResumeDownload = () => {
           </div>
           <h2 className="text-5xl font-bold mb-6 text-gradient-hero leading-[1.15] pb-1">Crafting Digital Experiences</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate UI/UX designer with 5+ years of experience creating digital experiences 
+            I'm a passionate UI/UX designer with 3+ years of experience creating digital experiences 
             that users love. I believe great design is invisible – it just works seamlessly and beautifully.
           </p>
         </div>
