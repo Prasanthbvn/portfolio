@@ -41,7 +41,7 @@ const handleResumeDownload = () => {
   const achievements = [
     { icon: Award, number: "50+", label: "Website Designed" },
     { icon: Users, number: "100+", label: "Happy Clients" },
-    { icon: Clock, number: "7+", label: "Years Experience" },
+    { icon: Clock, number: "3+", label: "Years Experience" },
     // { icon: Target, number: "100%", label: "Success Rate" }
   ]
 
