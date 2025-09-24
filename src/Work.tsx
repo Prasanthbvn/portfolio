@@ -29,7 +29,7 @@ const projects = [
     type: "UI Design",
     // stats: { efficiency: "+60%", adoption: "+80%", clients: "200+" },
     color: "from-green-500 to-blue-600",
-    caseStudyUrl: "https://dribbble.com/shots/26311199-Files-Manager-App"
+    caseStudyUrl: "https://www.behance.net/gallery/235128185/File-Manager-App-Design-Case-Study"
   },
   {
     title: "Modern Construction Site",

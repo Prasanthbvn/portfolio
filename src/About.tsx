@@ -40,8 +40,9 @@ const handleResumeDownload = () => {
 
   const achievements = [
     { icon: Award, number: "50+", label: "Website Designed" },
-    { icon: Users, number: "100+", label: "Happy Clients" },
-    { icon: Clock, number: "3+", label: "Years Experience" },
+    { icon: Clock, number: "3+", label: "Years in UI/UX Design" },
+    { icon: Users, number: "Strong Collaboration", label: "with Cross-Functional Teams" },
+    
     // { icon: Target, number: "100%", label: "Success Rate" }
   ]
 
@@ -82,7 +83,7 @@ const handleResumeDownload = () => {
             {/* Achievement Stats */}
             <div className="grid grid-cols-2 gap-6">
               {achievements.map((achievement, index) => (
-                <div key={index} className="text-center p-4 rounded-2xl glass card-3d">
+                <div key={index} className={`text-center p-4 rounded-2xl glass card-3d ${index === achievements.length - 1 ? 'col-span-2 justify-self-center' : ''}`}>
                   <achievement.icon className="h-8 w-8 mx-auto mb-2 text-primary" />
                   <div className="text-2xl font-bold text-gradient">{achievement.number}</div>
                   <div className="text-sm text-muted-foreground">{achievement.label}</div>

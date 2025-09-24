@@ -82,9 +82,10 @@ export function Hero() {
           {/* Stats Section */}
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto pt-8">
             {[
-              { number: "3+", label: "Years in UI/UX Design" },
               { number: "7+", label: "Years Overall Experience" },
-              { number: "100%", label: "Client Satisfaction" }
+              { number: "3+", label: "Years in UI/UX Design" },
+              
+              { number: "Worked with", label: "Global Clients" }
             ].map((stat, index) => (
               <div key={index} className="text-center" style={{ animationDelay: `${index * 0.5}s` }}>
                 <div className="text-3xl font-bold text-gradient mb-2">{stat.number}</div>
