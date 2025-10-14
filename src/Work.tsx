@@ -7,6 +7,7 @@ import constructionSite from "@/assets/images/construction-site.png"
 import otpVerification from "@/assets/images/otp-verification.png"
 import foodieSite from "@/assets/images/foodie-site.png"
 import logoDesign from "@/assets/images/logo-design.png"
+import vaccinationManagement from "@/assets/images/vaccination-management.png"
 
 const projects = [
   {
@@ -21,7 +22,7 @@ const projects = [
     caseStudyUrl: "https://www.behance.net/gallery/232936851/UIUX-Case-Study-Login-Signup-Flow"
   },
   {
-    title: "Files Manager App",
+    title: "Files Manager",
     description: "A modern, intuitive file management solution that transforms how users interact with their digital content. This design showcases a clean, minimalist interface that prioritizes user experience while maintaining powerful functionality.",
     image: fileManager,
     imageType: "file",
@@ -30,6 +31,17 @@ const projects = [
     // stats: { efficiency: "+60%", adoption: "+80%", clients: "200+" },
     color: "from-green-500 to-blue-600",
     caseStudyUrl: "https://www.behance.net/gallery/235128185/File-Manager-App-Design-Case-Study"
+  },
+  {
+    title: "Veterinary Vaccination Management",
+    description: "A modern and intuitive veterinary vaccination management system designed to streamline and digitalize the entire process. This solution ensures seamless reminders, easy record access, and improved pet health tracking for veterinarians and pet owners alike.",
+    image: vaccinationManagement,
+    imageType: "file",
+    tags: ["Mobile App", "Vaccination Management", "Accessibility"],
+    type: "App Design",
+    // stats: { efficiency: "+60%", adoption: "+80%", clients: "200+" },
+    color: "from-green-500 to-blue-600",
+    caseStudyUrl: "https://www.behance.net/gallery/236524649/Veterinary-Vaccination-Management-App"
   },
   {
     title: "Modern Construction Site",
